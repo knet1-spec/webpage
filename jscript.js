@@ -1,7 +1,7 @@
 var slider_img = document.querySelector('.slider-img');
 var images1 = ['Baybayin.png', 'Gold.png', 'Jar.png', 'Tabon.png', 'Textile.png'];
 var images2 = ['Builders.png', 'Ermita.png', 'Market.png', 'Parisian.png', 'Spolarium.png'];
-var images3 = ['Akbil.png', 'Coffin.png', 'Lolong.png', 'Pouches.png', 'Tree of Life.png'];
+var images3 = ['Akbil.png', 'Coffin.png', 'Lolong.png', 'Pouches.png', 'Tree.png'];
 var images4 = [];
 
 
