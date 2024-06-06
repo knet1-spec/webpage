@@ -23,11 +23,11 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 function aboutUs() {
-	window.location.href = "file:///D:/Final%20output%20IPT/AboutUs.html";
+	window.location.href = "https://kjgb031.github.io/webpage/AboutUs.html";
 }
 
 function btnHomepage() {
-    window.location.href = "file:///D:/Final%20output%20IPT/mainPage.html";
+    window.location.href = "https://kjgb031.github.io/webpage/mainPage.html";
 }
 /*ANTHROPOLOGY CAROUSEL*/
 var a = 0;
