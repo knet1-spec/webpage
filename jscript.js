@@ -2,9 +2,6 @@ var slider_img = document.querySelector('.slider-img');
 var images1 = ['Baybayin.png', 'Gold.png', 'Jar.png', 'Tabon.png', 'Textile.png'];
 var images2 = ['Builders.png', 'Ermita.png', 'Market.png', 'Parisian.png', 'Spolarium.png'];
 var images3 = ['Akbil.png', 'Coffin.png', 'Lolong.png', 'Pouches.png', 'Tree.png'];
-var images4 = [];
-
-
 
 document.addEventListener("DOMContentLoaded", function() {
     const imgContainers = document.querySelectorAll('.img-con');
@@ -91,23 +88,3 @@ function setImg3() {
 	
 }
 
-/*PLANETARIUM CAROUSEL*/
-
-var d = 0;
-
-function back4() {
-	if(d <= 0) d = images4.length;	
-	d--;
-	return setImg4();			 
-}
-
-function next4() {
-	if(d >= images4.length-1) d = -1;
-	d++;
-	return setImg4();			 
-}
-
-function setImg4() {
-	return slider_img.setAttribute('src', "planetariumimg/"+images4[d]);
-	
-}
